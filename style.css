@@ -11,3 +11,244 @@ Updated: 2019-01-24 21:12:36
 
 */
 
+.main-nav .menu {
+    float: right;
+}
+
+.home .inside-navigation {
+    margin-right: 5px;
+}
+
+.home-page-logo-init,
+#home-page-logo {
+    display: none;
+    position: fixed;
+    top: 51px;
+    left: 20px;
+    width: 20%;
+}
+
+.home-page-logo-scrolled {
+    display: none;
+}
+.main-navigation .main-nav ul li a {
+    padding-left: 5px;
+}
+
+@media screen and (max-width: 971px ) {
+    .main-navigation .main-nav ul li a {
+        padding-left: 0;
+        font-size: 12px;
+    }
+
+}
+
+button.menu-toggle {
+    text-align: right;
+}
+
+.nivo-caption {
+    bottom: 45%;
+    left: 30%;
+    width: 60%;
+    background-color: #3e341691;
+    color: #fdfbb4;
+    text-align: right;
+    font-family: Montserrat, sans-serif !important;
+    font-size: 20px;
+    padding: 20px;
+    opacity: 1;
+;
+}
+
+
+.footer-widgets {
+    padding: 0 ;
+}
+
+
+
+.site-header {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#8f782d+25,dbc159+25,dbc159+50,ff9b00+50,ff9b00+75,650000+75,650000+100 */
+    background: #8f782d; /* Old browsers */
+    background: -moz-linear-gradient(top, #8f782d 25%, #dbc159 25%, #dbc159 50%, #ff9b00 50%, #ff9b00 75%, #650000 75%, #650000 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #8f782d 25%,#dbc159 25%,#dbc159 50%,#ff9b00 50%,#ff9b00 75%,#650000 75%,#650000 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #8f782d 25%,#dbc159 25%,#dbc159 50%,#ff9b00 50%,#ff9b00 75%,#650000 75%,#650000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8f782d', endColorstr='#650000',GradientType=0 ); /* IE6-9 */
+
+}
+
+img.header-image {
+    height: 85px;
+}
+
+.inside-header.grid-container.grid-parent {
+    margin-left: 25px;
+    padding-left: 0;
+}
+
+.inside-navigation.grid-container.grid-parent {
+    margin-right: 0;
+}
+
+div#footer-widgets {
+    background-color: #650000;
+    color: #fffcaa;
+    padding: 35px 25px 0 25px;
+}
+
+.footer-widgets .widget-title {
+    color: #fffdaa;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+a.social-link {
+    color: #fffdaa;
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+.social-link-container {
+    text-align: center;
+}
+
+span.title {
+    font-family: Raleway, sans-serif;
+    font-size: 1.1em !important;
+}
+
+span.line_limit {
+    font-size: 1.2em;
+}
+
+#menu-main a {
+    line-height: 25px;
+}
+
+.widget-title, h3 {
+    font-weight: 600;
+}
+
+p.cat-headline {
+    font-family: Raleway, sans-serif;
+    color: #fffbb5 !important;
+    font-size: 22px !important;
+}
+
+p.home-cat-headline {
+    width: 50%;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    border: 2px solid #fffbb5;
+    font-size: 18px !important;
+    padding: 5px;
+    background-color: #00031660;
+
+}
+.home-cat-container {
+    margin-top: 17%;
+}
+
+.home-cat-container .ow-button-base {
+    background-color: #00031660;
+}
+
+.cat-container {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #00031660;
+    box-shadow: 0 0 28px 19px #00031660;
+    padding: 20px 20px;
+}
+
+@media screen and (max-width: 450px ) {
+    p.cat-headline {
+        font-size: 14px !important;
+    }
+
+}
+
+.sow-carousel-wrapper ul.sow-carousel-items li.sow-carousel-item h3 a {
+    text-decoration: none;
+    color: #fffdaa !important;
+}
+
+.cat-headline a {
+    color: #fffdaa;
+}
+
+.main-navigation ul ul a {
+    background-color: #3e3414 !important;
+}
+
+.main-navigation ul ul a:hover {
+    background-color: #605820 !important;
+}
+
+ul.sub-menu a {
+    padding: 4px 20px !important;
+}
+
+.default-overlay {
+    position: absolute;
+    height: 100%;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #0000004a;
+}
+
+#banner-container {
+    width: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+@media screen and (min-width: 830px) {
+    #banner-container {
+        line-height: 50px;
+    }
+}
+
+.banner-headline p {
+    font-family: "Raleway", sans-serif;
+    font-size: 4vw !important;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #fb0000 !important;
+}
+
+.banner-subheadline p {
+    font-family: "Raleway", sans-serif;
+    font-size: 3vw !important;
+    font-style: italic;
+}
+
+@media screen and (max-width: 600px) {
+
+    .banner-headline p {
+        font-size: 6vw !important;
+    }
+    .banner-subheadline p {
+        font-size: 5vw !important;
+    }
+
+}
+
+.main-navigation .main-nav ul li a {
+    line-height: 25px;
+}
+
+
+.navigation-search input {
+    height: 25px !important;
+}
+
